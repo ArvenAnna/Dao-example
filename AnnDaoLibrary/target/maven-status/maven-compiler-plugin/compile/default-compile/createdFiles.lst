@@ -1,0 +1,9 @@
+anna\anndaolibrary\daofactory\MySqlDaoFactory.class
+anna\anndaolibrary\specificdao\findbyobject\AbstractFindByObject.class
+anna\anndaolibrary\dao\AbstractDao.class
+anna\anndaolibrary\dao\IGenericDao.class
+anna\anndaolibrary\specificdao\foreignkeydao\AbstractForeignKeyDao.class
+anna\anndaolibrary\specificdao\foreignkeydao\IForeignKeyDao.class
+anna\anndaolibrary\specificdao\findbyobject\IFindByObject.class
+anna\anndaolibrary\dbconnection\ConnectionPool.class
+anna\anndaolibrary\daofactory\IDaoFactory.class
