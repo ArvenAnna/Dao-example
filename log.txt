@@ -1,0 +1,653 @@
+cd C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary; "JAVA_HOME=C:\\Program Files\\Java\\jdk1.7.0_79" cmd /c "\"\"C:\\Program Files\\NetBeans 8.1\\java\\maven\\bin\\mvn.bat\" -Dmaven.ext.class.path=\"C:\\Program Files\\NetBeans 8.1\\java\\maven-nblib\\netbeans-eventspy.jar\" -Dfile.encoding=UTF-8 -Prelease-profile clean install\""
+Scanning for projects...
+
+Some problems were encountered while building the effective model for anna:AnnDaoLibrary:jar:1.0-SNAPSHOT
+'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing.
+'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing.
+
+It is highly recommended to fix these problems because they threaten the stability of your build.
+
+For this reason, future Maven versions might no longer support building such malformed projects.
+
+                                                                        
+------------------------------------------------------------------------
+Building AnnDaoLibrary 1.0-SNAPSHOT
+------------------------------------------------------------------------
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+            
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml (746 B at 0.4 KB/sec)
+            
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.pom
+            
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.pom (7 KB at 10.9 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.jar
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.jar
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-source-plugin/2.4/maven-source-plugin-2.4.jar (31 KB at 67.7 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/plugins/maven-javadoc-plugin/maven-metadata.xml
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/maven-metadata.xml
+            
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/maven-metadata.xml (910 B at 3.0 KB/sec)
+            
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.pom
+            
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.pom (16 KB at 46.2 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/plugins/maven-plugins/27/maven-plugins-27.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/27/maven-plugins-27.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/27/maven-plugins-27.pom (12 KB at 35.6 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.jar
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.jar
+             
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-javadoc-plugin/2.10.3/maven-javadoc-plugin-2.10.3.jar (396 KB at 333.1 KB/sec)
+
+--- maven-clean-plugin:2.4.1:clean (default-clean) @ AnnDaoLibrary ---
+Deleting C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target
+
+--- maven-resources-plugin:2.5:resources (default-resources) @ AnnDaoLibrary ---
+[debug] execute contextualize
+Using 'UTF-8' encoding to copy filtered resources.
+Copying 0 resource
+
+--- maven-compiler-plugin:3.5:compile (default-compile) @ AnnDaoLibrary ---
+Changes detected - recompiling the module!
+Compiling 9 source files to C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\classes
+/C:/Documents and Settings/Alex/Мои документы/NetBeansProjects/AnnDaoLibrary/src/main/java/anna/anndaolibrary/daofactory/MySqlDaoFactory.java: Some input files use unchecked or unsafe operations.
+/C:/Documents and Settings/Alex/Мои документы/NetBeansProjects/AnnDaoLibrary/src/main/java/anna/anndaolibrary/daofactory/MySqlDaoFactory.java: Recompile with -Xlint:unchecked for details.
+
+--- maven-resources-plugin:2.5:testResources (default-testResources) @ AnnDaoLibrary ---
+[debug] execute contextualize
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\src\test\resources
+
+--- maven-compiler-plugin:3.5:testCompile (default-testCompile) @ AnnDaoLibrary ---
+Nothing to compile - all classes are up to date
+
+--- maven-surefire-plugin:2.10:test (default-test) @ AnnDaoLibrary ---
+No tests to run.
+Surefire report directory: C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+
+--- maven-jar-plugin:2.3.2:jar (default-jar) @ AnnDaoLibrary ---
+Building jar: C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\AnnDaoLibrary-1.0-SNAPSHOT.jar
+
+>>> maven-source-plugin:2.4:jar (attach-sources) @ AnnDaoLibrary >>>
+
+<<< maven-source-plugin:2.4:jar (attach-sources) @ AnnDaoLibrary <<<
+
+--- maven-source-plugin:2.4:jar (attach-sources) @ AnnDaoLibrary ---
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/plexus/plexus-archiver/2.6.3/plexus-archiver-2.6.3.pom
+             
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.6.3/plexus-archiver-2.6.3.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.6.3/plexus-archiver-2.6.3.pom (4 KB at 5.9 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.3/plexus-components-1.3.pom (3 KB at 7.4 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/plexus/plexus-utils/3.0.18/plexus-utils-3.0.18.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.18/plexus-utils-3.0.18.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.18/plexus-utils-3.0.18.pom (4 KB at 9.2 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.pom (3 KB at 4.2 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom (12 KB at 16.6 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/plexus/plexus-archiver/2.6.3/plexus-archiver-2.6.3.jar
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.jar
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/plexus/plexus-utils/3.0.18/plexus-utils-3.0.18.jar
+           
+           
+           
+           
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.6.3/plexus-archiver-2.6.3.jar
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.18/plexus-utils-3.0.18.jar
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.1.3/plexus-io-2.1.3.jar (65 KB at 70.4 KB/sec)
+                                     
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.6.3/plexus-archiver-2.6.3.jar (129 KB at 55.5 KB/sec)
+                                     
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/3.0.18/plexus-utils-3.0.18.jar (238 KB at 101.2 KB/sec)
+             
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar (357 KB at 130.5 KB/sec)
+Building jar: C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\AnnDaoLibrary-1.0-SNAPSHOT-sources.jar
+
+--- maven-javadoc-plugin:2.10.3:jar (attach-javadocs) @ AnnDaoLibrary ---
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.pom
+             
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.pom (6 KB at 11.3 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/shared/maven-shared-components/9/maven-shared-components-9.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/9/maven-shared-components-9.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/9/maven-shared-components-9.pom (4 KB at 10.4 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.9/plexus-utils-1.4.9.pom (3 KB at 4.8 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.pom (2 KB at 2.3 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia/1.4/doxia-1.4.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.4/doxia-1.4.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia/1.4/doxia-1.4.pom (18 KB at 43.2 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-logging-api/1.4/doxia-logging-api-1.4.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.4/doxia-logging-api-1.4.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.4/doxia-logging-api-1.4.pom (2 KB at 4.0 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-site-renderer/1.4/doxia-site-renderer-1.4.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.4/doxia-site-renderer-1.4.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.4/doxia-site-renderer-1.4.pom (6 KB at 11.2 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-sitetools/1.4/doxia-sitetools-1.4.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.4/doxia-sitetools-1.4.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sitetools/1.4/doxia-sitetools-1.4.pom (17 KB at 38.4 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-core/1.4/doxia-core-1.4.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.4/doxia-core-1.4.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.4/doxia-core-1.4.pom (4 KB at 7.3 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom (2 KB at 2.8 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-lang/commons-lang/2.4/commons-lang-2.4.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.pom (14 KB at 19.9 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.0.2/httpclient-4.0.2.pom (8 KB at 5.0 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/httpcomponents/httpcomponents-client/4.0.2/httpcomponents-client-4.0.2.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.0.2/httpcomponents-client-4.0.2.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.0.2/httpcomponents-client-4.0.2.pom (9 KB at 6.2 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/httpcomponents/project/4.1/project-4.1.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.1/project-4.1.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.1/project-4.1.pom (16 KB at 35.3 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom (5 KB at 13.3 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom (10 KB at 25.4 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/httpcomponents/project/4.0/project-4.0.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.0/project-4.0.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/4.0/project-4.0.pom (13 KB at 25.6 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom (18 KB at 49.8 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/commons/commons-parent/5/commons-parent-5.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/5/commons-parent-5.pom (16 KB at 38.6 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-codec/commons-codec/1.3/commons-codec-1.3.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.3/commons-codec-1.3.pom (6 KB at 12.7 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-decoration-model/1.4/doxia-decoration-model-1.4.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.4/doxia-decoration-model-1.4.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.4/doxia-decoration-model-1.4.pom (3 KB at 7.6 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-module-xhtml/1.4/doxia-module-xhtml-1.4.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.4/doxia-module-xhtml-1.4.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.4/doxia-module-xhtml-1.4.pom (2 KB at 3.8 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-modules/1.4/doxia-modules-1.4.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.4/doxia-modules-1.4.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-modules/1.4/doxia-modules-1.4.pom (3 KB at 5.5 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-module-fml/1.4/doxia-module-fml-1.4.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.4/doxia-module-fml-1.4.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.4/doxia-module-fml-1.4.pom (5 KB at 11.1 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.pom (18 KB at 45.5 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-digester/commons-digester/1.8/commons-digester-1.8.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.pom (7 KB at 15.1 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-logging/commons-logging/1.1/commons-logging-1.1.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1/commons-logging-1.1.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1/commons-logging-1.1.pom (7 KB at 35.1 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/logkit/logkit/1.0.1/logkit-1.0.1.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.pom
+            
+Downloaded: http://repo.maven.apache.org/maven2/logkit/logkit/1.0.1/logkit-1.0.1.pom (147 B at 0.3 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom
+            
+Downloading: http://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom
+            
+Downloaded: http://repo.maven.apache.org/maven2/avalon-framework/avalon-framework/4.1.3/avalon-framework-4.1.3.pom (167 B at 0.3 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/javax/servlet/servlet-api/2.3/servlet-api-2.3.pom
+            
+Downloading: http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.3/servlet-api-2.3.pom
+            
+Downloaded: http://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.3/servlet-api-2.3.pom (156 B at 0.3 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-chain/commons-chain/1.1/commons-chain-1.1.pom
+            
+Downloading: http://repo.maven.apache.org/maven2/commons-chain/commons-chain/1.1/commons-chain-1.1.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/commons-chain/commons-chain/1.1/commons-chain-1.1.pom (6 KB at 12.1 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.pom (9 KB at 20.9 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/dom4j/dom4j/1.1/dom4j-1.1.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/dom4j/dom4j/1.1/dom4j-1.1.pom
+            
+Downloaded: http://repo.maven.apache.org/maven2/dom4j/dom4j/1.1/dom4j-1.1.pom (142 B at 0.4 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/sslext/sslext/1.2-0/sslext-1.2-0.pom
+            
+Downloading: http://repo.maven.apache.org/maven2/sslext/sslext/1.2-0/sslext-1.2-0.pom
+            
+Downloaded: http://repo.maven.apache.org/maven2/sslext/sslext/1.2-0/sslext-1.2-0.pom (653 B at 1.2 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.pom
+            
+Downloading: http://repo.maven.apache.org/maven2/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.pom (5 KB at 9.6 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/struts/struts-parent/1.3.8/struts-parent-1.3.8.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/struts/struts-parent/1.3.8/struts-parent-1.3.8.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/struts/struts-parent/1.3.8/struts-parent-1.3.8.pom (10 KB at 30.8 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/struts/struts-master/4/struts-master-4.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/struts/struts-master/4/struts-master-4.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/struts/struts-master/4/struts-master-4.pom (12 KB at 23.9 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/apache/2/apache-2.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/apache/2/apache-2.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/apache/2/apache-2.pom (4 KB at 10.1 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/antlr/antlr/2.7.2/antlr-2.7.2.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/antlr/antlr/2.7.2/antlr-2.7.2.pom
+            
+Downloaded: http://repo.maven.apache.org/maven2/antlr/antlr/2.7.2/antlr-2.7.2.pom (145 B at 0.4 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.pom
+            
+Downloading: http://repo.maven.apache.org/maven2/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.pom (4 KB at 7.7 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.pom (3 KB at 3.7 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/velocity/velocity/1.6.2/velocity-1.6.2.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.6.2/velocity-1.6.2.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.6.2/velocity-1.6.2.pom (11 KB at 8.6 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.pom (2 KB at 4.4 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/wagon/wagon/1.0-beta-6/wagon-1.0-beta-6.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-6/wagon-1.0-beta-6.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/wagon/wagon/1.0-beta-6/wagon-1.0-beta-6.pom (13 KB at 29.8 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/plexus/plexus-utils/1.4.2/plexus-utils-1.4.2.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.2/plexus-utils-1.4.2.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.4.2/plexus-utils-1.4.2.pom (2 KB at 6.4 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.pom (6 KB at 21.7 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/httpcomponents/httpcomponents-client/4.2.3/httpcomponents-client-4.2.3.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.2.3/httpcomponents-client-4.2.3.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.2.3/httpcomponents-client-4.2.3.pom (15 KB at 50.8 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/httpcomponents/project/6/project-6.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/6/project-6.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/project/6/project-6.pom (24 KB at 71.4 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.pom (6 KB at 16.9 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/httpcomponents/httpcomponents-core/4.2.2/httpcomponents-core-4.2.2.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.2.2/httpcomponents-core-4.2.2.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.2.2/httpcomponents-core-4.2.2.pom (12 KB at 26.6 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.pom (11 KB at 27.9 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/log4j/log4j/1.2.14/log4j-1.2.14.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.pom (3 KB at 4.0 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.pom (18 KB at 36.6 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+           
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom (5 KB at 14.4 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.pom (5 KB at 11.9 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom
+         
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.pom (4 KB at 13.0 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/commons/commons-compress/1.9/commons-compress-1.9.pom
+         
+Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.pom
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.pom (12 KB at 42.0 KB/sec)
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.jar
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.jar
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-logging-api/1.4/doxia-logging-api-1.4.jar
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-site-renderer/1.4/doxia-site-renderer-1.4.jar
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-core/1.4/doxia-core-1.4.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-decoration-model/1.4/doxia-decoration-model-1.4.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-module-xhtml/1.4/doxia-module-xhtml-1.4.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/maven/doxia/doxia-module-fml/1.4/doxia-module-fml-1.4.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-digester/commons-digester/1.8/commons-digester-1.8.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-chain/commons-chain/1.1/commons-chain-1.1.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/dom4j/dom4j/1.1/dom4j-1.1.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/sslext/sslext/1.2-0/sslext-1.2-0.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/antlr/antlr/2.7.2/antlr-2.7.2.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-lang/commons-lang/2.4/commons-lang-2.4.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/log4j/log4j/1.2.14/log4j-1.2.14.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar
+           
+Downloading: https://raw.github.com/synergian/wagon-git/releases/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar
+           
+           
+           
+           
+           
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.4/doxia-logging-api-1.4.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.4/doxia-core-1.4.jar
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.4/doxia-site-renderer-1.4.jar
+                      
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-logging-api/1.4/doxia-logging-api-1.4.jar (12 KB at 22.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar
+                      
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-sink-api/1.4/doxia-sink-api-1.4.jar (11 KB at 15.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar
+                      
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-invoker/2.0.9/maven-invoker-2.0.9.jar (28 KB at 36.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.4/doxia-decoration-model-1.4.jar
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-site-renderer/1.4/doxia-site-renderer-1.4.jar (52 KB at 48.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.4/doxia-module-xhtml-1.4.jar
+                        
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-xhtml/1.4/doxia-module-xhtml-1.4.jar (16 KB at 45.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.4/doxia-module-fml-1.4.jar
+                        
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-core/1.4/doxia-core-1.4.jar (162 KB at 106.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar
+                        
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-decoration-model/1.4/doxia-decoration-model-1.4.jar (60 KB at 71.0 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar
+           
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/maven/doxia/doxia-module-fml/1.4/doxia-module-fml-1.4.jar (37 KB at 57.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/commons-chain/commons-chain/1.1/commons-chain-1.1.jar
+                                  
+Downloaded: http://repo.maven.apache.org/maven2/commons-chain/commons-chain/1.1/commons-chain-1.1.jar (88 KB at 53.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar
+                                                
+Downloaded: http://repo.maven.apache.org/maven2/commons-digester/commons-digester/1.8/commons-digester-1.8.jar (141 KB at 42.3 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/dom4j/dom4j/1.1/dom4j-1.1.jar
+                                                 
+Downloaded: http://repo.maven.apache.org/maven2/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar (190 KB at 43.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/sslext/sslext/1.2-0/sslext-1.2-0.jar
+                                                 
+Downloaded: http://repo.maven.apache.org/maven2/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar (136 KB at 92.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.jar
+                                  
+Downloaded: http://repo.maven.apache.org/maven2/sslext/sslext/1.2-0/sslext-1.2-0.jar (26 KB at 30.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/antlr/antlr/2.7.2/antlr-2.7.2.jar
+                                    
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/velocity/velocity-tools/2.0/velocity-tools-2.0.jar (339 KB at 70.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.jar
+                                                              
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/struts/struts-core/1.3.8/struts-core-1.3.8.jar (322 KB at 52.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.jar
+                                                      
+Downloaded: http://repo.maven.apache.org/maven2/antlr/antlr/2.7.2/antlr-2.7.2.jar (350 KB at 59.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.jar
+                                                      
+Downloaded: http://repo.maven.apache.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar (1201 KB at 104.5 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.jar
+                                                      
+Downloaded: http://repo.maven.apache.org/maven2/dom4j/dom4j/1.1/dom4j-1.1.jar (447 KB at 62.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar
+                                                      
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/struts/struts-taglib/1.3.8/struts-taglib-1.3.8.jar (246 KB at 42.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+             
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/struts/struts-tiles/1.3.8/struts-tiles-1.3.8.jar (117 KB at 74.8 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+                                   
+Downloaded: http://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.6/commons-codec-1.6.jar (228 KB at 142.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.jar
+                                 
+Downloaded: http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar (60 KB at 42.6 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar
+                                                             
+Downloaded: http://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.4/commons-lang-2.4.jar (256 KB at 53.7 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.jar
+                                                             
+Downloaded: http://repo.maven.apache.org/maven2/com/thoughtworks/qdox/qdox/1.12.1/qdox-1.12.1.jar (176 KB at 73.9 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar
+                                                             
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar (219 KB at 47.4 KB/sec)
+Downloading: http://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar
+                          
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.2.3/httpclient-4.2.3.jar (423 KB at 73.1 KB/sec)
+                        
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.4/plexus-io-2.4.jar (80 KB at 59.5 KB/sec)
+                        
+Downloaded: http://repo.maven.apache.org/maven2/log4j/log4j/1.2.14/log4j-1.2.14.jar (359 KB at 83.8 KB/sec)
+                        
+Downloaded: http://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.9/plexus-archiver-2.9.jar (142 KB at 78.3 KB/sec)
+             
+Downloaded: http://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar (370 KB at 160.8 KB/sec)
+
+Loading source files for package anna.anndaolibrary.dao...
+Loading source files for package anna.anndaolibrary.daofactory...
+Loading source files for package anna.anndaolibrary.dbconnection...
+Loading source files for package anna.anndaolibrary.specificdao.findbyobject...
+Loading source files for package anna.anndaolibrary.specificdao.foreignkeydao...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_79
+Building tree for all the packages and classes...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dao\AbstractDao.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dao\IGenericDao.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\daofactory\IDaoFactory.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\daofactory\MySqlDaoFactory.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dbconnection\ConnectionPool.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\findbyobject\AbstractFindByObject.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\findbyobject\IFindByObject.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\foreignkeydao\AbstractForeignKeyDao.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\foreignkeydao\IForeignKeyDao.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\overview-frame.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dao\package-frame.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dao\package-summary.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dao\package-tree.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\daofactory\package-frame.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\daofactory\package-summary.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\daofactory\package-tree.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dbconnection\package-frame.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dbconnection\package-summary.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dbconnection\package-tree.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\findbyobject\package-frame.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\findbyobject\package-summary.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\findbyobject\package-tree.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\foreignkeydao\package-frame.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\foreignkeydao\package-summary.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\foreignkeydao\package-tree.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\constant-values.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dao\class-use\IGenericDao.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dao\class-use\AbstractDao.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\daofactory\class-use\MySqlDaoFactory.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\daofactory\class-use\IDaoFactory.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dbconnection\class-use\ConnectionPool.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\findbyobject\class-use\IFindByObject.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\findbyobject\class-use\AbstractFindByObject.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\foreignkeydao\class-use\IForeignKeyDao.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\foreignkeydao\class-use\AbstractForeignKeyDao.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dao\package-use.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\daofactory\package-use.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\dbconnection\package-use.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\findbyobject\package-use.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\anna\anndaolibrary\specificdao\foreignkeydao\package-use.html...
+Building index for all the packages and classes...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\overview-tree.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\index-all.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\deprecated-list.html...
+Building index for all classes...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\allclasses-frame.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\allclasses-noframe.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\index.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\overview-summary.html...
+Generating C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\apidocs\help-doc.html...
+1 warning
+Javadoc Warnings
+C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\src\main\java\anna\anndaolibrary\specificdao\foreignkeydao\AbstractForeignKeyDao.java:111: warning - @return tag has no arguments.
+Building jar: C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\AnnDaoLibrary-1.0-SNAPSHOT-javadoc.jar
+
+--- maven-install-plugin:2.3.1:install (default-install) @ AnnDaoLibrary ---
+Installing C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\AnnDaoLibrary-1.0-SNAPSHOT.jar to C:\Documents and Settings\Alex\.m2\repository\anna\AnnDaoLibrary\1.0-SNAPSHOT\AnnDaoLibrary-1.0-SNAPSHOT.jar
+Installing C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\pom.xml to C:\Documents and Settings\Alex\.m2\repository\anna\AnnDaoLibrary\1.0-SNAPSHOT\AnnDaoLibrary-1.0-SNAPSHOT.pom
+Installing C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\AnnDaoLibrary-1.0-SNAPSHOT-sources.jar to C:\Documents and Settings\Alex\.m2\repository\anna\AnnDaoLibrary\1.0-SNAPSHOT\AnnDaoLibrary-1.0-SNAPSHOT-sources.jar
+Installing C:\Documents and Settings\Alex\Мои документы\NetBeansProjects\AnnDaoLibrary\target\AnnDaoLibrary-1.0-SNAPSHOT-javadoc.jar to C:\Documents and Settings\Alex\.m2\repository\anna\AnnDaoLibrary\1.0-SNAPSHOT\AnnDaoLibrary-1.0-SNAPSHOT-javadoc.jar
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time: 2:20.250s
+Finished at: Fri Feb 05 09:06:11 EET 2016
+Final Memory: 16M/39M
+------------------------------------------------------------------------
